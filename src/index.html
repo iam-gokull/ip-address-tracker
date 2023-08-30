@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>IP Address Tracker</title>
+</head>
+<body>
+
+  <header class="header">
+    <section class="header-container">
+      <div class="heading">
+        <h1>IP Address Tracker</h1>
+      </div>
+      <div class="search">
+        <form id="ip-form">
+          <input type="text" id="search-input" placeholder="Search for any IP address or domain" autofocus>
+          <button id="search-btn" type="submit">
+            <img class="search-icon" alt="search icon">
+          </button>
+        </form>
+      </div>
+      <div class="display-continaer">
+        <div class="card">
+          <h4 class="eyebrow">IP Address</h4>
+          <h2 class="content" id="ip-address"></h2>
+        </div>
+        <div class="card">
+          <h4 class="eyebrow">Location</h4>
+          <h2 class="content" id="location"></h2>
+        </div>
+        <div class="card">
+          <h4 class="eyebrow">Timezone</h4>
+          <h2 class="content" id="timezone"></h2>
+        </div>
+        <div class="card">
+          <h4 class="eyebrow">ISP</h4>
+          <h2 class="content" id="isp"></h2>
+        </div>
+      </div>
+    </section>
+  </header>
+  <div id="map"></div>
+</body>
+</html>
